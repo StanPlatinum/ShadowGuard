@@ -52,7 +52,7 @@ deps () {
   if [ ! -d "thirdparty/dyninst-10.1.0" ]; then
     git clone https://github.com/mxz297/dyninst.git thirdparty/dyninst-10.1.0
     cd thirdparty/dyninst-10.1.0/;\
-    git checkout liteCFI
+    git checkout layout_opt
   fi
 
   cd $root_dir
